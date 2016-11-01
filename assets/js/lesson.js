@@ -74,7 +74,96 @@ sweetAlert("Oops...", result+"/5", "error");
 });
 });
 
+//tab 2 - Lesson1
+$(document).ready(function(){
+$("#q1").click(function(){
 
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/unit1/knock-at.jpg');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#q2").click(function(){
+
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/unit1/rubber.jpg');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#q3").click(function(){
+
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/unit1/calculator.png');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#q4").click(function(){
+
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/unit1/pencil-sharpener.jpg');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#q5").click(function(){
+
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/unit1/compass.jpg');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#q6").click(function(){
+
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/testimonial-1.png');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#q7").click(function(){
+
+  var curSrc = $(this).attr('src');
+  if ( curSrc === 'assets/img/question.png' ) {
+      $(this).attr('src', 'assets/img/testimonial-1.png');
+  }
+  else $(this).attr('src', 'assets/img/question.png');
+
+    });
+    });
+$(document).ready(function(){
+$("#btn-hide").click(function(){
+
+$("#q1").attr('src', 'assets/img/question.png');
+$("#q2").attr('src', 'assets/img/question.png');
+$("#q3").attr('src', 'assets/img/question.png');
+$("#q4").attr('src', 'assets/img/question.png');
+$("#q5").attr('src', 'assets/img/question.png');
+$("#q6").attr('src', 'assets/img/question.png');
+$("#q7").attr('src', 'assets/img/question.png');
+    });
+    });
 //tab 4 -lesson 1
 $(document).ready(function(){
 $("#pic8").click(function(){
